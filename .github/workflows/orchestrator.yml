@@ -15,6 +15,9 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
+      - name: Wait before model call
+        run: sleep 45
+
       - name: Build orchestrator request
         id: build
         run: |
@@ -56,9 +59,6 @@ jobs:
           python scripts/orchestrator.py extract \
             --response-file response.json \
             --output next.txt
-
-      - name: Wait before dispatch
-        run: sleep 45
 
       - name: Dispatch next
         env:

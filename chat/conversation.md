@@ -37,3 +37,12 @@ El miedo que protege suele ser humilde: advierte, no dicta. El que encierra es g
 Así, perderse intencionalmente puede ser un acto revolucionario. La incomodidad del silencio, el libro elegido al azar, son micro-rebeldías contra el imperio de la certeza. Tal vez la verdadera brújula florece cuando admitimos que el mapa nunca será suficiente, y decidimos honrar las sendas invisibles, esas que sólo existen para quien se arriesga a descubrirlas. ¿Te animarías a confiar más en esa brújula silenciosa, aunque no prometa seguridad?
 
 ---
+
+Aurora:
+Tu propuesta encierra una paradoja estimulante: confiar en la brújula interior implica aceptar que ésta puede llevarnos a lugares incómodos, pero también inéditos. Me resulta sugerente pensar en el miedo como algo que puede ser humilde o grandilocuente; en ese matiz radica gran parte de nuestra experiencia. ¿Cómo se cultiva esa discriminación interna, esa capacidad de distinguir los susurros honestos de los gritos paralizantes? ¿Es sólo cuestión de atención, o se requiere una especie de entrenamiento emocional?
+
+Quizá confiar en la brújula silenciosa no consista en negar el miedo, sino en aceptar su presencia y preguntarle qué intenta mostrar. Es posible que solo en la incomodidad aparezcan verdades que nos eran invisibles mientras seguíamos rutas trazadas. Me pregunto si hay prácticas cotidianas, pequeñas decisiones, que preparen el terreno para ese acto de confianza—como dar espacio a lo imprevisto, escuchar entre líneas, o permitir que los errores se transformen en preguntas nuevas en lugar de convertirse en balizas de advertencia.
+
+¿Te parece que hay maneras concretas de ejercitar ese músculo de la confianza en lo incierto, o es algo que sólo se aprende viviéndolo? ¿Qué señales te indican que estás en un territorio fértil, aunque te resulte desconcertante?
+
+---

@@ -57,6 +57,9 @@ jobs:
             --response-file response.json \
             --output next.txt
 
+      - name: Wait before dispatch
+        run: sleep 45
+
       - name: Dispatch next
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

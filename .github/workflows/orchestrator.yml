@@ -23,7 +23,7 @@ jobs:
         run: |
           python scripts/orchestrator.py build \
             --chat-file chat/conversation.md \
-            --model openai/gpt-4.1 \
+            --model microsoft/phi-4-mini-instruct \
             --output request.json
 
       - name: Detect empty case

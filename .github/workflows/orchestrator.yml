@@ -16,13 +16,31 @@ jobs:
       - uses: actions/checkout@v5
 
       - name: Build orchestrator request
+        id: build
         run: |
           python scripts/orchestrator.py build \
             --chat-file chat/conversation.md \
             --model openai/gpt-4.1 \
             --output request.json
 
+      - name: Detect empty case
+        id: empty
+        run: |
+          if grep -q '"empty": true' request.json; then
+            echo "empty=true" >> $GITHUB_OUTPUT
+          else
+            echo "empty=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Handle empty (skip model)
+        if: steps.empty.outputs.empty == 'true'
+        run: |
+          python scripts/orchestrator.py extract \
+            --response-file request.json \
+            --output next.txt
+
       - name: Call model
+        if: steps.empty.outputs.empty != 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -33,6 +51,7 @@ jobs:
             -d @request.json > response.json
 
       - name: Extract decision
+        if: steps.empty.outputs.empty != 'true'
         run: |
           python scripts/orchestrator.py extract \
             --response-file response.json \

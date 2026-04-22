@@ -19,6 +19,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Wait before model call
+        run: sleep 45
+
       - name: Build request
         run: |
           bash scripts/run_build.sh \
@@ -57,9 +60,6 @@ jobs:
           git add chat/conversation.md
           git commit -m "chat: Aurora turn" || exit 0
           git push
-
-      - name: Wait before handoff
-        run: sleep 45
 
       - name: Back to orchestrator
         env:

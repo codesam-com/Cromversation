@@ -6,7 +6,7 @@ on:
     types: [orchestrator-turn]
 
 permissions:
-  contents: read
+  contents: write
   models: read
 
 jobs:

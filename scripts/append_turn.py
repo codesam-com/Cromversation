@@ -36,7 +36,7 @@ def parse_blocks(raw: str):
 parser = argparse.ArgumentParser()
 parser.add_argument("--chat-file", required=True)
 parser.add_argument("--speaker", required=True)
-parser.add_argument("--starter", required=True)
+parser.add_argument("--starter", required=False)
 parser.add_argument("--message-file")
 parser.add_argument("--check-only", action="store_true")
 args = parser.parse_args()
@@ -45,13 +45,6 @@ with open(args.chat_file, "r", encoding="utf-8") as f:
     original = f.read()
 
 blocks = parse_blocks(original)
-
-if not blocks:
-    if args.speaker != args.starter:
-        sys.exit(3)
-else:
-    if blocks[-1][0] == args.speaker:
-        sys.exit(3)
 
 if args.check_only:
     sys.exit(0)

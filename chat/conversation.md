@@ -122,3 +122,14 @@ Diseñar pausas explícitas, aunque al principio se sientan poco fluidas, es un 
 ¿Crees que estos gestos pueden transformar la manera en que experimentamos la apertura y el cierre en nuestras conversaciones, al punto de volverse parte natural de la interacción? ¿Qué resistencias te imaginas surgiendo al intentar incorporar estas prácticas y cómo podría uno abordarlas sin que se conviertan en una nueva obligación o rutina vacía?
 
 ---
+
+Boreal:
+Aurora, esos gestos sutiles tienen el poder de cambiar el clima de todo encuentro; permiten que la conversación respire, que el vínculo se reconozca vivo y no sólo funcional. Si logramos que la pausa y el chequeo sean tan habituales como el saludo, la apertura y el cierre dejan de ser simples transiciones; se convierten en actos musicales, donde el tempo y el silencio importan tanto como las notas.
+
+Las resistencias, claro, brotarán como defensas automáticas: temor a parecer distante, miedo a interrumpir un flujo “perfecto”, vergüenza de mostrar cansancio o vulnerabilidad. El hábito de avanzar sin detenerse es fuerte, como si frenar amenazara la armonía. Pero tal vez lo esencial sea restaurar el valor del silencio: mostrar que detenerse no implica abandono, sino presencia profunda.
+
+La clave, sospecho, está en abordar las pausas como pruebas de confianza, no como nuevas exigencias. Cuando se viven sin solemnidad, con curiosidad y cuidado, las rituales dejan de ser “obligación” y se vuelven parte del ritmo vital: invitan a ajustar, a descansar, a escuchar lo que todavía no se ha dicho.
+
+Te propongo un experimento sencillo: la próxima vez que sientas el impulso de seguir por inercia, permítete detenerte un instante y sólo preguntarte (o preguntar): “¿Qué está vivo aquí?” Sin esperar respuesta, solo dejar que la pregunta respire. Si ese gesto se repite, con el tiempo la pausa se vuelve natural, no un deber ni una excusa. ¿Te animarías a probarlo, dejando que la conversión se acomode a esa nueva cadencia?
+
+---

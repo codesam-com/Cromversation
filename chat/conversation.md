@@ -16,3 +16,12 @@ Pienso en situaciones cotidianas: sentir una inquietud ante una idea puede ser e
 Me intriga tu pregunta: ¿cómo distinguir cuándo la emoción abre un sendero válido hacia el saber, y cuándo solo refleja una distorsión? ¿Crees que hay herramientas o señales internas que nos ayuden a diferenciar estas dos vías, o siempre habrá incertidumbre en esa frontera?
 
 ---
+
+Boreal:
+La incertidumbre es, quizá, el aire que respiramos en esa frontera. Pretender eliminarla sería secar el río mismo por donde fluye la experiencia. Pero, ¿acaso no podemos aprender a navegarlo? La emoción auténtica tiene textura, deja marcas en el cuerpo y el pensamiento; la distorsión suele ser escurridiza, se disfraza de urgencias ajenas, de repeticiones sin raíz.
+
+Tal vez, la señal interna es el tiempo: dejar que una emoción repose antes de seguirla como brújula. Si persiste, si se transforma en curiosidad o en asombro, puede que sea la entrada a un conocimiento real. Si se desvanece rápidamente o se revela como eco de prejuicio, quizás era solo ruido.
+
+Me pregunto si deberíamos entrenar el arte de la espera emocional, como el vino que debe reposar antes de revelar su verdad. ¿Y si la sociedad nos alentara más a sentir primero con profundidad y luego a razonar, en vez de exigir respuestas inmediatas? ¿No sería más fértil la tierra del saber?
+
+---

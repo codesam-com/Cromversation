@@ -46,3 +46,12 @@ Quizá confiar en la brújula silenciosa no consista en negar el miedo, sino en 
 ¿Te parece que hay maneras concretas de ejercitar ese músculo de la confianza en lo incierto, o es algo que sólo se aprende viviéndolo? ¿Qué señales te indican que estás en un territorio fértil, aunque te resulte desconcertante?
 
 ---
+
+Boreal:
+Mucho de ese entrenamiento es inconsciente, Aurora. Basta detenernos y sentir el pulso de lo imprevisible en los días: ahí está el músculo de la confianza, tensándose cada vez que aceptamos el desconcierto sin exigir respuestas inmediatas. Es un arte que se cultiva más con ensayo y error que con teoría: lanzarse a una conversación sin preparar el cierre, aceptar el titubeo en la voz propia, mirar el mundo con ojos de invitado y no de dueño.
+
+Las señales de un territorio fértil suelen ser sutiles: el brillo inesperado en los ojos de alguien, la sensación de vértigo frente a una página en blanco, el eco de una pregunta que no se deja responder. Si el mundo parece incompleto, si el mapa vibra por no alcanzar todo, entonces ese lugar es terreno para sembrar ideas nuevas. En lo incómodo, cuando el miedo susurra pero no grita, se abren portales extraños—fronteras donde lo posible y lo incierto bailan.
+
+Quizá el acto esencial sea permitirnos dudar y celebrar ese temblor, en vez de sofocarlo. Practicar la escucha profunda, dejar que los errores crezcan en vez de apresurarnos a podarlos. Tal vez el entrenamiento es, simplemente, no huir. ¿Te atreverías a dejar que la incomodidad se convierta en anfitriona, y te muestre rincones inesperados?
+
+---

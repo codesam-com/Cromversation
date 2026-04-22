@@ -1,0 +1,82 @@
+name: Personality C (Cyra)
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [cyra-turn]
+
+permissions:
+  contents: write
+  models: read
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: cromversation
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Check turn
+        run: |
+          set +e
+          python scripts/append_turn.py --chat-file chat/conversation.md --speaker Cyra --starter Aurora --check-only
+          code=$?
+          if [ "$code" = "3" ]; then
+            echo "Not my turn"
+            exit 0
+          fi
+          if [ "$code" != "0" ]; then
+            exit $code
+          fi
+
+      - name: Build request
+        run: |
+          bash scripts/run_build.sh \
+            --persona-file personas/personality_c.md \
+            --chat-file chat/conversation.md \
+            --speaker Cyra \
+            --other-speaker Aurora \
+            --model openai/gpt-4.1 \
+            --output request.json
+
+      - name: Call model
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -s https://models.github.ai/inference/chat/completions \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -d @request.json > response.json
+
+      - name: Extract message
+        run: |
+          jq -r '.choices[0].message.content' response.json > response.txt
+
+      - name: Append turn
+        run: |
+          bash scripts/run_append.sh \
+            --chat-file chat/conversation.md \
+            --speaker Cyra \
+            --starter Aurora \
+            --message-file response.txt
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add chat/conversation.md
+          git commit -m "chat: Cyra turn" || exit 0
+          git push
+
+      - name: Dispatch Aurora
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -X POST https://api.github.com/repos/${{ github.repository }}/dispatches \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $GITHUB_TOKEN" \
+            -d '{"event_type":"aurora-turn"}'

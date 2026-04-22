@@ -22,15 +22,20 @@ jobs:
 
       - name: Check turn
         run: |
-          python scripts/append_turn.py --chat-file chat/conversation.md --speaker Aurora --starter Aurora --check-only || exit_code=$?
-          if [ "$exit_code" = "3" ]; then
+          set +e
+          python scripts/append_turn.py --chat-file chat/conversation.md --speaker Aurora --starter Aurora --check-only
+          code=$?
+          if [ "$code" = "3" ]; then
             echo "Not my turn"
             exit 0
+          fi
+          if [ "$code" != "0" ]; then
+            exit $code
           fi
 
       - name: Build request
         run: |
-          python scripts/build_messages.py \
+          bash scripts/run_build.sh \
             --persona-file personas/personality_a.md \
             --chat-file chat/conversation.md \
             --speaker Aurora \
@@ -49,18 +54,11 @@ jobs:
 
       - name: Extract message
         run: |
-          python - << 'EOF'
-          import json
-          with open('response.json') as f:
-              data = json.load(f)
-          msg = data['choices'][0]['message']['content']
-          with open('response.txt','w') as f:
-              f.write(msg.strip())
-          EOF
+          jq -r '.choices[0].message.content' response.json > response.txt
 
       - name: Append turn
         run: |
-          python scripts/append_turn.py \
+          bash scripts/run_append.sh \
             --chat-file chat/conversation.md \
             --speaker Aurora \
             --starter Aurora \

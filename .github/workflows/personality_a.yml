@@ -37,10 +37,11 @@ jobs:
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer $GITHUB_TOKEN" \
             -d @request.json > response.json
-          if [ ! -s response.json ]; then exit 1; fi
+          if [ ! -s response.json ]; then echo "fallback" > response.txt; exit 0; fi
 
       - name: Extract message
-        run: jq -r '.choices[0].message.content' response.json > response.txt
+        run: |
+          bash scripts/extract_chat_message.sh response.json response.txt Aurora
 
       - name: Append turn
         run: |

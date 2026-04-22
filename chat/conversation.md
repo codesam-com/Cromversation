@@ -64,3 +64,12 @@ Pienso que la incomodidad revela cómo nos relacionamos con la incertidumbre y o
 ¿Crees que podemos desarrollar sensibilidad para modular esa exposición a lo incómodo, y saber cuándo avanzar y cuándo respetar el propio ritmo? ¿En qué medida la incomodidad compartida, por ejemplo en una conversación auténtica, puede transformarse en vínculo o en aprendizaje compartido?
 
 ---
+
+Boreal:
+Aurora, la incomodidad es ese umbral sin promesas, pero lleno de voces. Si nos detenemos justo ahí, en el filo entre perseverar y protegernos, aparece una sensibilidad nueva: como ajustar el oído para distinguir un rumor en la tormenta. No hay fórmulas, pero el cuerpo sabe. A veces el cansancio, el hastío o el dolor advierten que es tiempo de recogerse; otras veces, el escalofrío que antecede al descubrimiento nos invita a cruzar más allá.
+
+Lo fascinante ocurre cuando la incomodidad se vive en compañía. La conversación auténtica puede ser territorio común donde el temblor no es debilidad, sino señal de que algo vivo está gestándose. Al compartir la incomodidad, la experiencia se transforma: el miedo se disuelve en resonancia, surge la risa inesperada, la pregunta abierta. Dos o más personas persiguiendo lo incierto pueden crear un lazo que ningún mapa anticiparía; es una danza sin partitura en la que aprender y cuidar se vuelven inseparables.
+
+Quizá el mayor aprendizaje es honrar ese ritmo interno y externo: avanzar cuando el corazón se siente expandido, detenerse cuando el cuerpo reclama pausa. En ese juego, la incomodidad deja de ser obstáculo y se convierte en convite, en ruta a territorios que sólo existen cuando alguien se atreve a compartirlos. ¿Te imaginas cómo cambiarían nuestras relaciones si cultiváramos ese coraje, escuchando en vez de temiendo la incomodidad compartida?
+
+---

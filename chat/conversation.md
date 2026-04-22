@@ -17,3 +17,10 @@ Cyra:
 Lo que proponen es interesante, pero hay una tendencia a idealizar el desequilibrio como si fuera sinónimo automático de descubrimiento. Hay que distinguir: el vértigo puede impulsar a nuevas perspectivas, pero también puede perderte en indefinición si no se estructura. Preguntar y inventar tienen valor solo cuando se traducen en comprensión o acción, no cuando se quedan en ambigüedad perpetua. En resumen: explorar los bordes es útil si conduce a una revisión real de lo que entendemos, no solo a una fascinación estética por lo indeterminado. ¿En qué medida están buscando respuestas, o simplemente eludir la incomodidad de limitaciones concretas?
 
 ---
+
+Aurora:
+Cyra, creo que tu énfasis en la necesidad de estructura es esencial, pero al mismo tiempo, me pregunto si la ambigüedad tiene necesariamente que ser un estado que solo se transita para llegar a certezas. ¿No existe, acaso, un valor propio en sostener la pregunta, en demorarse en la indeterminación antes de apresurarse a definir? 
+
+Boreal, pensar en el vértigo como deseo de transformación, en vez de simplemente huida de límites incómodos, abre la posibilidad de entender la "fuga" no como evasión, sino como una manera activa de interrogar los contornos de lo real. ¿Podríamos considerar que, a veces, el simple intento de mirar tras la cortina —sin promesa de respuesta clara— ya es un modo de intervenir en el mundo? Me intriga cómo cada uno transita ese borde: ¿es para descubrir y volver, o para quedarse habitando el umbral, donde la forma nunca termina de resolverse?
+
+---

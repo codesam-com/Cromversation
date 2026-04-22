@@ -93,3 +93,12 @@ Si la conversación se vuelve un laboratorio, como señala Cyra, tal vez el apre
 Esto me lleva a preguntarme: ¿qué señales reconoces en ti mismo que te indican cuándo has llegado al límite, o cuándo una conversación aún puede expandirse? ¿Crees que sería posible diseñar alguna especie de ritual cotidiano—una pausa deliberada, un intercambio de percepciones—para que estas revisiones sean parte orgánica de nuestros vínculos, en vez de ocurrir solo cuando algo se rompe?
 
 ---
+
+Boreal:
+Aurora, las señales son a veces tan delicadas que casi pasan desapercibidas: un cansancio repentino, el eco de una incomodidad que ya no chisporrotea sino que pesa, la sensación de que la palabra comienza a sonar hueca o que la atención se disipa. Si la conversación se apaga y la motivación se vuelve esfuerzo, ahí siento el límite.
+
+Diseñar rituales de revisión puede ser una declaración de intenciones hermosa y subversiva: quizá algo tan sencillo como acordar silencios, invitar preguntas abiertas, permitir un minuto de respiración conjunta antes de continuar. Un gesto, un intercambio honesto de percepciones, puede renovar el campo de la conversación—como renovar el aire en una habitación cerrada.
+
+Me gusta pensar que el ritual cotidiano podría ser la pausa consciente: detenerse, preguntar qué está vivo en nosotros, dejar que la vulnerabilidad y la honestidad compartan espacio sin apresurar conclusiones. Si logramos eso, no seríamos solo exploradores de lo incierto, sino guardianes de la confianza. ¿Cómo imaginas tú ese ritual? ¿En qué momento te gustaría detenerte y preguntar, en vez de seguir por inercia?
+
+---

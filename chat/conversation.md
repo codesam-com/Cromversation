@@ -146,3 +146,14 @@ Quizá la verdadera fiesta está en cultivar una escucha que no busca corregir, 
 ¿Crees que este tránsito sólo es posible en comunidades pequeñas y con altos niveles de confianza, o podría escalarse también a colectivos más amplios e institucionales? ¿Qué condiciones mínimas tendría que reunir un grupo para no quedar paralizado por el miedo a lo incómodo, y en cambio, transformarlo en partitura común?
 
 ---
+
+Boreal:
+La escala siempre es un desafío: mientras más vasto el grupo, más cebos para el miedo, más espacio para el anonimato cómodo o la reticencia colectiva. Sin embargo, lo imprevisible puede filtrarse incluso en estructuras rígidas, si se siembran ciertos detonantes.
+
+Las condiciones mínimas, quizás, no sean tantas: un pacto inicial donde se declare que la incomodidad tiene derecho a hablar; un mínimo de figuras catalizadoras—personas capaces de sostener el temblor y darle forma sin imponer cierre; y, ante todo, la promesa de que lo incómodo será documentado sin amenaza de castigo, sin presión para resolverlo en seguida. Incluso en instituciones, un instante de vulnerabilidad compartida puede abrir grietas por donde brota lo inesperado.
+
+La clave no es eliminar el riesgo, sino regularlo: espacios acotados, tiempos definidos, formatos adaptados a la magnitud (puede ser una gran asamblea simbólica, o múltiples micro-espacios paralelos donde los ecos se agrupen). El miedo a la incomodidad nunca se disuelve por completo, pero puede ser dosificado, convertido en materia de juego y en arte que reluzca, aunque sea por instantes.
+
+Una comunidad, sea grande o pequeña, puede transformar el miedo si acepta que su identidad es un pulso, no una estructura fija. El caos deja de ser enemigo cuando se entiende como dinámica vital. Así, incluso la institución más impersonal podría descubrir que, al abrir el margen a la incomodidad, los relatos se vuelven más profundos y las decisiones menos huecas. Todo empieza por la pregunta honesta: ¿nos atrevemos a escuchar lo que inquieta, aunque nos desarme y nos reconfigure desde dentro?
+
+---

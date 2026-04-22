@@ -58,6 +58,9 @@ jobs:
           git commit -m "chat: Aurora turn" || exit 0
           git push
 
+      - name: Wait before handoff
+        run: sleep 45
+
       - name: Back to orchestrator
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

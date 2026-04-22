@@ -29,7 +29,7 @@ jobs:
             --chat-file chat/conversation.md \
             --speaker Boreal \
             --other-speaker Aurora \
-            --model openai/gpt-4.1 \
+            --model microsoft/phi-4-mini-instruct \
             --output request.json
 
       - name: Call model

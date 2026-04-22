@@ -50,13 +50,13 @@ jobs:
       - name: Extract message
         run: |
           python - << 'EOF'
-import json
-with open('response.json') as f:
-    data = json.load(f)
-msg = data['choices'][0]['message']['content']
-with open('response.txt','w') as f:
-    f.write(msg.strip())
-EOF
+          import json
+          with open('response.json') as f:
+              data = json.load(f)
+          msg = data['choices'][0]['message']['content']
+          with open('response.txt','w') as f:
+              f.write(msg.strip())
+          EOF
 
       - name: Append turn
         run: |

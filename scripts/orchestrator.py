@@ -1,6 +1,7 @@
 import argparse
 import json
 import sys
+import random
 
 NAME_TO_EVENT = {
     "aurora": "aurora-turn",
@@ -8,10 +9,18 @@ NAME_TO_EVENT = {
     "cyra": "cyra-turn",
 }
 
+EVENTS = list(NAME_TO_EVENT.values())
+
 
 def build_request(chat_file: str, model: str, output: str) -> None:
     with open(chat_file, "r", encoding="utf-8") as f:
         chat = f.read().strip()
+
+    # FIX: if chat is empty → skip model and mark special case
+    if not chat:
+        with open(output, "w", encoding="utf-8") as f:
+            json.dump({"empty": True}, f)
+        return
 
     system_prompt = """
 Eres el orquestador de una conversación entre tres personalidades: Aurora, Boreal y Cyra.
@@ -34,7 +43,7 @@ Criterios de decisión:
 
     user_prompt = f"""
 Historial completo:
-{chat if chat else '[vacío]'}
+{chat}
 
 Devuelve solo el nombre exacto de la siguiente personalidad.
 """.strip()
@@ -56,6 +65,12 @@ def extract_event(response_file: str, output: str) -> None:
     with open(response_file, "r", encoding="utf-8") as f:
         data = json.load(f)
 
+    # FIX: empty case → random fallback (no model call needed)
+    if "empty" in data:
+        with open(output, "w", encoding="utf-8") as f:
+            f.write(random.choice(EVENTS))
+        return
+
     content = data["choices"][0]["message"]["content"].strip().lower()
 
     selected = None
@@ -64,9 +79,9 @@ def extract_event(response_file: str, output: str) -> None:
             selected = name
             break
 
+    # FIX: robust fallback instead of hard fail
     if not selected:
-        print("Could not map orchestrator response to a participant", file=sys.stderr)
-        sys.exit(1)
+        selected = random.choice(list(NAME_TO_EVENT.keys()))
 
     with open(output, "w", encoding="utf-8") as f:
         f.write(NAME_TO_EVENT[selected])

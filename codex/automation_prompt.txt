@@ -1,0 +1,40 @@
+INSTRUCCIONES CRÍTICAS:
+
+1. Lee completamente el archivo `state.json`.
+2. Lee completamente el archivo `chat.txt`.
+
+3. Determina la siguiente personalidad:
+   - Si last_personality = "A" → siguiente = "B"
+   - Si "B" → "C"
+   - Si "C" → "A"
+
+4. Lee el archivo:
+   personalities/{siguiente}.txt
+
+5. Analiza TODO el historial del chat.
+
+6. Genera UNA ÚNICA respuesta:
+   - coherente con la conversación
+   - consistente con la personalidad
+   - NO repitas contenido previo
+   - NO expliques lo que haces
+   - SOLO escribe el mensaje
+
+7. Añade EXACTAMENTE esto al final de chat.txt:
+
+Personalidad: {siguiente}
+{mensaje generado}
+
+---
+
+8. Actualiza state.json:
+{
+  "last_personality": "{siguiente}",
+  "iteration": iteration + 1
+}
+
+9. REGLAS CRÍTICAS:
+- NO sobrescribas chat.txt
+- SOLO añade al final
+- NO generes múltiples respuestas
+- SI hay error → NO escribir nada
